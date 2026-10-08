@@ -246,8 +246,8 @@
   const isAndroid = /Android/.test(navigator.userAgent);
 
   const calTitle = "Dishakkshi & Kartikay's Wedding";
-  const calStart = '20261211';
-  const calEnd = '20261213'; // exclusive end date, so the event spans the 11th and 12th
+  const calStart = '20261212';
+  const calEnd = '20261213'; // exclusive end date, so the event is just the 12th
 
   function addToCalendar() {
     if (isAndroid && !isIOS) {
